@@ -1,0 +1,21 @@
+DIAMOND LOPES WEBSITE - GITHUB UPLOAD
+
+1. Unzip this folder on your computer.
+2. Open your GitHub repository: Tucker05/DiamondLopes.com
+3. Click Add file > Upload files.
+4. Drag ALL of the contents of this folder into GitHub:
+   - index.html
+   - styles.css
+   - script.js
+   - CNAME
+   - README.md
+   - the entire assets folder
+5. Commit directly to the main branch.
+
+After the files are uploaded, enable GitHub Pages:
+Settings > Pages > Build and deployment > Deploy from a branch
+Branch: main
+Folder: / (root)
+Save.
+
+Do not delete the CNAME file. It tells GitHub Pages to use diamondlopes.com.
