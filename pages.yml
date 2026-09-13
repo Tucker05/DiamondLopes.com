@@ -1,0 +1,233 @@
+media:
+  input: "."
+  output: "/"
+  extensions: [webp, png, jpg, jpeg]
+  categories: [image]
+  rename: safe
+
+content:
+  - name: homepage
+    label: Homepage
+    type: file
+    path: site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: seo
+        label: SEO
+        type: object
+        fields:
+          - name: title
+            label: Browser title
+            type: string
+          - name: description
+            label: Search description
+            type: text
+
+      - name: topline
+        label: Top banner
+        type: object
+        fields:
+          - name: primary
+            label: Main line
+            type: string
+          - name: secondary
+            label: Location / year
+            type: string
+
+      - name: brand_name
+        label: Brand name
+        type: string
+
+      - name: social
+        label: Social links
+        type: object
+        fields:
+          - name: instagram
+            label: Instagram URL
+            type: string
+          - name: x
+            label: X URL
+            type: string
+
+      - name: logos
+        label: Logos
+        type: object
+        fields:
+          - name: primary
+            label: Primary logo
+            type: image
+          - name: secondary
+            label: Secondary logo
+            type: image
+
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Main headline
+            type: text
+            description: Use line breaks where you want visual breaks.
+          - name: deck
+            label: Supporting text
+            type: text
+          - name: number
+            label: Hero number
+            type: string
+
+      - name: intro
+        label: From the dugout
+        type: object
+        fields:
+          - name: kicker
+            label: Section label
+            type: string
+          - name: heading
+            label: Heading
+            type: text
+          - name: body1
+            label: Paragraph 1
+            type: text
+          - name: body2
+            label: Paragraph 2
+            type: text
+
+      - name: channels
+        label: Follow the coverage
+        type: object
+        fields:
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+
+      - name: coverage
+        label: Social coverage
+        type: object
+        fields:
+          - name: heading
+            label: Section heading
+            type: text
+          - name: instagram
+            label: Instagram showcase
+            type: object
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+              - name: description
+                label: Description
+                type: text
+              - name: images
+                label: Instagram images
+                type: image
+                options:
+                  multiple:
+                    max: 4
+                  unique: true
+          - name: x
+            label: X showcase
+            type: object
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: heading
+                label: Heading
+                type: string
+              - name: description
+                label: Description
+                type: text
+              - name: pills
+                label: Feature tags
+                type: string
+                list:
+                  max: 5
+              - name: images
+                label: X screenshots
+                type: image
+                options:
+                  multiple:
+                    max: 5
+                  unique: true
+
+      - name: about
+        label: Behind Diamond GCU
+        type: object
+        fields:
+          - name: kicker
+            label: Section label
+            type: string
+          - name: heading
+            label: Heading
+            type: text
+          - name: byline
+            label: Byline
+            type: string
+          - name: body1
+            label: Paragraph 1
+            type: text
+          - name: body2
+            label: Paragraph 2
+            type: text
+          - name: tags
+            label: Coverage tags
+            type: string
+            list:
+              max: 8
+
+      - name: ondeck
+        label: On deck
+        type: object
+        fields:
+          - name: kicker
+            label: Section label
+            type: string
+          - name: heading
+            label: Heading
+            type: text
+          - name: description
+            label: Description
+            type: text
+          - name: items
+            label: Upcoming features
+            type: object
+            list:
+              max: 6
+              collapsible:
+                collapsed: true
+                summary: "{number} — {title}"
+            fields:
+              - name: number
+                label: Number
+                type: string
+              - name: title
+                label: Title
+                type: string
+              - name: status
+                label: Status
+                type: string
+
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - name: tagline
+            label: Tagline
+            type: string
+          - name: copyright
+            label: Copyright
+            type: string
+          - name: disclaimer
+            label: Disclaimer
+            type: text

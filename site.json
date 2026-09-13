@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Diamond GCU | Independent Grand Canyon Lopes Baseball Coverage",
+    "description": "Independent coverage of Grand Canyon Lopes baseball. Live updates, game-day graphics, scores, stories, and fan-first coverage from Diamond GCU."
+  },
+  "topline": {
+    "primary": "INDEPENDENT COVERAGE OF GRAND CANYON LOPES BASEBALL",
+    "secondary": "PHOENIX, ARIZONA ✦ EST. 2026"
+  },
+  "brand_name": "DIAMOND GCU",
+  "social": {
+    "instagram": "https://www.instagram.com/diamondgcu/",
+    "x": "https://x.com/DiamondGCU"
+  },
+  "logos": {
+    "primary": "/retro-lope.webp",
+    "secondary": "/retro-thunder.webp"
+  },
+  "hero": {
+    "eyebrow": "LOPES BASEBALL. EVERY INNING.",
+    "heading": "THE HOME OF DIAMOND GCU BASEBALL, FROM OUR SIDE OF THE FENCE.",
+    "deck": "Live updates, game-day graphics, scores, and stories for Grand Canyon baseball fans.",
+    "number": "26"
+  },
+  "intro": {
+    "kicker": "FROM THE DUGOUT",
+    "heading": "OUR TEAM.\nOUR DIAMOND.\nOUR STORY.",
+    "body1": "A home for GCU baseball, built by the people following every inning.",
+    "body2": "Diamond GCU brings together live game updates, original graphics, score coverage, and the conversation around Lopes baseball."
+  },
+  "channels": {
+    "heading": "Follow the coverage.",
+    "description": "The conversation starts here. The coverage continues on social."
+  },
+  "coverage": {
+    "heading": "FROM GAME DAY\nTO THE FINAL OUT.",
+    "instagram": {
+      "label": "ON INSTAGRAM",
+      "heading": "The game in graphics.",
+      "description": "Game-day matchups, final scores, Diamond Performers, and the moments that define Lopes baseball.",
+      "images": [
+        "/instagram-gameday-unlv.webp",
+        "/instagram-wolfpack.webp",
+        "/instagram-win-unlv.webp",
+        "/instagram-final-score.webp"
+      ]
+    },
+    "x": {
+      "label": "LIVE ON X",
+      "heading": "Every pitch. As it happens.",
+      "description": "Inning-by-inning updates, big plays, score changes, and the conversation around Lopes baseball.",
+      "pills": [
+        "LIVE SCORES",
+        "BIG PLAYS",
+        "FINAL OUTS"
+      ],
+      "images": [
+        "/x-1.webp",
+        "/x-2.webp",
+        "/x-3.webp",
+        "/x-4.webp",
+        "/x-5.webp"
+      ]
+    }
+  },
+  "about": {
+    "kicker": "BEHIND DIAMOND GCU",
+    "heading": "FROM THE STANDS.\nFOR THE FANS.",
+    "byline": "TUCKER + TIMMY",
+    "body1": "We started Diamond GCU to give Lopes fans another way to follow their team. Run by Tucker Dunseth and Timmy Ryan, Diamond GCU brings together live tweets, game-day and postgame graphics, team updates, and live-score contributions.",
+    "body2": "Tucker studies Sports & Entertainment Management at GCU. Timmy is pursuing sports journalism and color commentary. The shared focus is simple: get closer to the game and tell the stories around GCU baseball.",
+    "tags": [
+      "LIVE GAME UPDATES",
+      "GAME-DAY GRAPHICS",
+      "TEAM COVERAGE",
+      "BASEBALL SCORES"
+    ]
+  },
+  "ondeck": {
+    "kicker": "THE NEXT CHAPTER",
+    "heading": "MORE BASEBALL.\nMORE OF THE STORY.",
+    "description": "Social coverage is the starting point. We’re building toward a dedicated home for GCU baseball reporting.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Game recaps & series previews",
+        "status": "ON DECK"
+      },
+      {
+        "number": "02",
+        "title": "Player stories & interviews",
+        "status": "ON DECK"
+      },
+      {
+        "number": "03",
+        "title": "Stats & season analysis",
+        "status": "ON DECK"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "LOPES UP. FIRST PITCH TO FINAL OUT.",
+    "copyright": "© 2026 Diamond GCU",
+    "disclaimer": "Independent fan coverage. Not affiliated with Grand Canyon University."
+  }
+}
