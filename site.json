@@ -13,12 +13,12 @@
     "x": "https://x.com/DiamondGCU"
   },
   "logos": {
-    "primary": "/retro-lope.webp",
-    "secondary": "/retro-thunder.webp"
+    "primary": "retro-lope.webp",
+    "secondary": "retro-thunder.webp"
   },
   "hero": {
     "eyebrow": "LOPES BASEBALL. EVERY INNING.",
-    "heading": "THE HOME OF DIAMOND GCU BASEBALL, FROM OUR SIDE OF THE FENCE.",
+    "heading": "The Home of Diamond GCU | Complete GCU Baseball Coverage",
     "deck": "Live updates, game-day graphics, scores, and stories for Grand Canyon baseball fans.",
     "number": "26"
   },
@@ -39,10 +39,10 @@
       "heading": "The game in graphics.",
       "description": "Game-day matchups, final scores, Diamond Performers, and the moments that define Lopes baseball.",
       "images": [
-        "/instagram-gameday-unlv.webp",
-        "/instagram-wolfpack.webp",
-        "/instagram-win-unlv.webp",
-        "/instagram-final-score.webp"
+        "instagram-gameday-unlv.webp",
+        "instagram-wolfpack.webp",
+        "instagram-win-unlv.webp",
+        "instagram-final-score.webp"
       ]
     },
     "x": {
@@ -55,11 +55,11 @@
         "FINAL OUTS"
       ],
       "images": [
-        "/x-1.webp",
-        "/x-2.webp",
-        "/x-3.webp",
-        "/x-4.webp",
-        "/x-5.webp"
+        "x-1.webp",
+        "x-2.webp",
+        "x-3.webp",
+        "x-4.webp",
+        "x-5.webp"
       ]
     }
   },
